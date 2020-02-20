@@ -1,0 +1,108 @@
+
+*, *:before, *:after {
+    box-sizing: border-box;
+  }
+  
+  body{
+    background: #f5eeed;
+    font-family: "nunito", sans-serif;
+    padding-top: 60px !important;
+   
+  }
+  
+
+  #mainNavbar{
+    font-size: 1.5rem;
+    font-weight: 100;
+  }
+  
+  #mainNavbar .nav-link{
+    color: #fff;
+  }
+  
+  #mainNavbar .nav-link:hover{
+    color: rgb(222, 233, 183);
+  }
+  
+  #mainNavbar .navbar-brand{
+    color: rgb(240, 224, 224);
+    
+  }
+.jumbotron{
+    background: url("../image/jj-ying-7JX0-bfiuxQ-unsplash.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-top: 2rem;
+}
+
+
+
+/*footer section*/
+footer{
+    background: #e0dfdf;
+    color: #000;
+    padding: 10px 0px 10px 0px;
+    font-size: 0.8rem;
+    
+}
+
+footer ul a{
+    color: #000000;
+    line-height: 30px;
+}
+
+footer ul a:hover{
+  color:blue;
+}
+
+footer li{
+    float: left;
+    list-style: none;
+    padding: 0px auto;
+}
+
+footer .address{
+  line-height: 20px;
+  text-align:;
+}
+
+
+#footerNavigation{
+  border-right: 1px solid gray;
+  padding: 0px 5px 0px5px;
+  text-align: center;
+}
+
+#footerNavigation li{
+  padding: 5px;
+}
+
+
+#footerContact{
+  border-right: 1px solid gray;
+  padding-top: 40px;
+  
+}
+
+footer .tradeMark{
+  text-align: center;
+  color: #000000 !important;
+  
+}
+
+
+.socialMediaLinks{
+  padding: 0px 10px 0px 10px;
+  text-align: center;
+  
+}
+
+.socialMediaLinks li{
+  padding: 10px;
+}
+
+footer .tradeMark :hover{
+  text-align: center;
+  color: #93f1ab;
+}
